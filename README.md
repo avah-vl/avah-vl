@@ -1,5 +1,29 @@
-# 💫 About Me:
-🔭 I’m currently working on improving QA Testing<br>🌱 I’m currently learning Python and React  <br>⚡ Fun facts: <br>                 😂  My first “Hello World” took 1 hour to run <br>                 🔧 I learn best by breaking things first <br>
+# 🌌 Bits of Me, Bits of Wisdom
+
+<table style="border: 2px solid cyan; border-radius:10px; box-shadow: 0 0 10px cyan;">
+<tr>
+<td style="border-right: 2px solid cyan; padding:15px;">
+
+🔭 I’m currently working on improving QA Testing <br>
+🌱 I’m currently learning Python and React <br>
+⚡ Fun facts: <br>
+&nbsp;&nbsp;😂 My first “Hello World” took 1 hour to run <br>
+&nbsp;&nbsp;🔧 I learn best by breaking things first <br>
+
+[![](https://visitcount.itsvg.in/api?id=avah-vl&icon=2&color=1)](https://visitcount.itsvg.in)
+
+</td>
+<td style="padding:15px;">
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</td>
+</tr>
+</table>
+
+
+
+
 
 
 ## 🌐 Socials:
@@ -17,5 +41,12 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=avah-vl&icon=2&color=1)](https://visitcount.itsvg.in)
+
+
+
+
+
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
