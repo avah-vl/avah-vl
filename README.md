@@ -5,7 +5,7 @@
 <td style="border-right: 2px solid cyan; padding:15px;">
 
 🔭 I’m currently working on improving QA Testing <br>
-🌱 I’m currently learning Python and React <br>
+🌱 I’m currently learning everything i put on my Tech Stack >.< t <br>
 ⚡ Fun facts: <br>
 &nbsp;&nbsp;😂 My first “Hello World” took 1 hour to run <br>
 &nbsp;&nbsp;🔧 I learn best by breaking things first <br>
