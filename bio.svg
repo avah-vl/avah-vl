@@ -1,0 +1,40 @@
+<svg width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .outer {
+      fill: none;
+      stroke: cyan;
+      stroke-width: 2;
+      rx: 15;
+      ry: 15;
+      filter: drop-shadow(0 0 8px cyan);
+      animation: glow 3s infinite alternate;
+    }
+    @keyframes glow {
+      from { stroke: cyan; filter: drop-shadow(0 0 5px cyan); }
+      to { stroke: #00f0ff; filter: drop-shadow(0 0 15px #00f0ff); }
+    }
+    .text {
+      font-family: Orbitron, sans-serif;
+      font-size: 14px;
+      fill: #A8C6FF;
+      opacity: 0;
+      animation: fadeIn 6s forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Cyan border -->
+  <rect x="10" y="10" width="1180" height="230" class="outer"></rect>
+
+  <!-- Left column -->
+  <text x="40" y="60" class="text">I’m currently learning everything I put on my Tech Stack &gt;.&lt;</text>
+  <text x="40" y="100" class="text">Fun facts:</text>
+  <text x="70" y="130" class="text">• My first “Hello World” took 1 hour to run</text>
+  <text x="70" y="160" class="text">• I learn best by breaking things first</text>
+
+  <!-- Right column (quote placeholder) -->
+  <text x="650" y="130" class="text" font-size="16" fill="#00F0FF">"Your daily quote here..."</text>
+</svg>
