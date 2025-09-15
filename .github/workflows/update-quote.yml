@@ -1,0 +1,32 @@
+name: Update Quote
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch random quote
+        run: |
+          QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content')
+          echo "QUOTE=$QUOTE" >> $GITHUB_ENV
+
+      - name: Replace placeholder in SVG
+        run: |
+          SVG_FILE="BIO101.svg"
+          # Replace the exact placeholder text
+          sed -i "s/\[ Quote will appear here \]/$QUOTE/" $SVG_FILE
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add $SVG_FILE
+          git commit -m "Update quote in SVG"
+          git push
