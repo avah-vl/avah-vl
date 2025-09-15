@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="./BIO101.svg" width="100%"/>  
-  <br/>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+  <img src="./BIO101.svg?timestamp={{TIMESTAMP}}" width="100%"/>
 </p>
-
-
 
 
 ## 🌐 Socials:
