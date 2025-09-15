@@ -1,4 +1,5 @@
-# 🌌 Bits of Me, Bits of Wisdom
+![Avah Levantino Logo](./download_cleaned.svg)
+
 
 <table style="border: 2px solid cyan; border-radius:10px; box-shadow: 0 0 10px cyan;">
 <tr>
