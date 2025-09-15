@@ -35,6 +35,7 @@
   <!-- Placeholder box for quotes -->
   <rect x="300" y="250" width="600" height="100" rx="12" ry="12" fill="none" stroke="#00F0FF" stroke-width="2" filter="url(#glow)" opacity="0.8"></rect>
   <text x="600" y="310" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="14" fill="#6f8dbb">
-  {{QUOTE}}
+  <tspan x="600" dy="0">LEARNING TO CODE IS LIKE LEARNING A NEW LANGUAGE…</tspan>
+  <tspan x="600" dy="20">EXCEPT COMPUTERS DON’T APPRECIATE YOUR ACCENT :)</tspan>
   </text>
 </svg>
