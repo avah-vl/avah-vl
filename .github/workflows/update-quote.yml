@@ -20,8 +20,8 @@ jobs:
       - name: Replace placeholder in SVG safely
         run: |
           SVG_FILE="BIO101.svg"
-          # Use perl to safely replace special characters
-          perl -i -pe "s/\[ Quote will appear here \]/$QUOTE/g" $SVG_FILE
+          # Use perl to safely replace {{QUOTE}}
+          perl -i -pe "s/\{\{QUOTE\}\}/$QUOTE/g" $SVG_FILE
 
       - name: Update README timestamp (optional, forces refresh)
         run: |
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add BIO101.svg
+          git add BIO101.svg README.md
           # Only commit if there are changes
-          git diff --cached --quiet || git commit -m "Update quote in SVG"
+          git diff --cached --quiet || git commit -m "Update quote in SVG and README timestamp"
           git push
