@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="textGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8A2BE2"></stop>
+      <stop offset="50%" stop-color="#00F0FF"></stop>
+      <stop offset="100%" stop-color="#DA70D6"></stop>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Animated background wave -->
+  <path fill="#9400D3" fill-opacity="0.6">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0,260 C300,320 900,200 1200,260 L1200,400 L0,400 Z;
+              M0,240 C300,200 900,320 1200,240 L1200,400 L0,400 Z;
+              M0,260 C300,320 900,200 1200,260 L1200,400 L0,400 Z"></animate>
+  </path>
+
+  <!-- Name -->
+  <text x="50%" y="120" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="64" fill="url(#textGrad)" filter="url(#glow)">AVAH LEVANTINO</text>
+
+  <!-- Static Info -->
+  <text x="50%" y="180" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="16" fill="#A8C6FF">
+    I’m currently learning everything I put on my Tech Stack &gt;.&lt;
+  </text>
+  <text x="50%" y="210" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="14" fill="#9FB3FF">
+    Fun facts: My first "Hello World" took 1 hour to run • I learn best by breaking things first
+  </text>
+
+  <!-- Placeholder box for quotes -->
+  <rect x="300" y="250" width="600" height="100" rx="12" ry="12" fill="none" stroke="#00F0FF" stroke-width="2" filter="url(#glow)" opacity="0.8"></rect>
+  <text x="600" y="310" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="14" fill="#6f8dbb">
+    [ Quote will appear here ]
+  </text>
+</svg>
