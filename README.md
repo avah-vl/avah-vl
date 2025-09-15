@@ -35,7 +35,6 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=avah-vl&theme=radical&hide_border=false&background=00000000&stroke=9400D3&ring=8A2BE2&fire=DA70D6&currStreakLabel=BA55D3&sideLabels=9932CC" alt="GitHub Streak">
 </p>
-
 ---
 
 ## 🏆 GitHub Trophies
