@@ -17,16 +17,23 @@ jobs:
           QUOTE=$(curl -s https://api.quotable.io/random | jq -r '.content')
           echo "QUOTE=$QUOTE" >> $GITHUB_ENV
 
-      - name: Replace placeholder in SVG
+      - name: Replace placeholder in SVG safely
         run: |
           SVG_FILE="BIO101.svg"
-          # Replace the exact placeholder text
-          sed -i "s/\[ Quote will appear here \]/$QUOTE/" $SVG_FILE
+          # Use perl to safely replace special characters
+          perl -i -pe "s/\[ Quote will appear here \]/$QUOTE/g" $SVG_FILE
 
-      - name: Commit and push
+      - name: Update README timestamp (optional, forces refresh)
+        run: |
+          TIMESTAMP=$(date +%s)
+          sed -i "s|<img src=\"./BIO101.svg\"|<img src=\"./BIO101.svg?timestamp=$TIMESTAMP\"|" README.md
+          git add README.md
+
+      - name: Commit and push if changes exist
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add BIO101.svg
-          git commit -m "Update quote in SVG"
+          # Only commit if there are changes
+          git diff --cached --quiet || git commit -m "Update quote in SVG"
           git push
