@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="./BIO101.svg" width="100%"/>
-</p>
+<img src="./BIO101.svg?timestamp=1694775000" width="100%"/>
+
 
 
 ## 🌐 Socials:
