@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./BIO101.svg?timestamp={{TIMESTAMP}}" width="100%"/>
+  <img src="./BIO101.svg" width="100%"/>
 </p>
 
 
