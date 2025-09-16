@@ -1,6 +1,6 @@
 <img src="./BIO101.svg?timestamp=1694775000" width="100%"/>
 
-## 🌐 Connect with Me
+## Connect with Me
 
 <p align="center">
   <a href="https://discord.gg/h9cNJjxQ"><img src="https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge" alt="Discord"></a>
@@ -9,9 +9,7 @@
 </p>
 
 
-
-
-## 💻 Tech Stack
+## Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
@@ -28,16 +26,15 @@
   <img src="https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" alt="R">
 </p>
 
----
 
-## 🔥 Contribution Streak
+## Contribution Streak
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=avah-vl&theme=radical&hide_border=false&background=00000000&stroke=9400D3&ring=8A2BE2&fire=DA70D6&currStreakLabel=BA55D3&sideLabels=9932CC" alt="GitHub Streak">
 </p>
----
 
-## 🏆 GitHub Trophies
+
+## GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=avah-vl&theme=radical&no-frame=true&no-bg=true&margin-w=20&margin-h=15&row=2&column=4&title=Commits,Repositories,Stars,Followers,PullRequest,Issues,Contributions,Reviews&colors=9400D3,8A2BE2,DA70D6,9932CC,BA55D3" alt="GitHub Trophies">
